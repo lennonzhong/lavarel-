@@ -1,0 +1,39 @@
+body{
+    font-size: 14px;
+}
+.location{
+    width: 100%;
+}
+.location > ol{
+    width: 100%;
+    background-color: #7afff4;
+}
+#infotable{
+    margin-left: 100px;
+}
+#infotable > img{
+    margin-left: 60px;
+    width: 160px;
+    margin-bottom: 30px;
+}
+#infotable > table{
+    margin-left: 50px;
+}
+
+#infotable > table tr td:nth-of-type(2){
+    margin-left: 10px;
+}
+
+#infotable > table tr{
+    line-height: 50px;
+}
+
+#modifyForm,#modifypass{
+    margin-top: 50px;
+}
+
+#modifyForm > form > table tr > td,
+#modifyPass table tr > td{
+    padding: 10px;
+}
+

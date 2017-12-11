@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+    position: relative;
+}
+.content{
+    width: 100%;
+    background-color: #666;
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+.content > .container > .row > h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.content > .container > .row > h3 > span{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.content > .container > .row >div >form{
+    padding-top: 40px;
+}
+
+.content > .container > .row >div >form>div{
+    margin-top: 30px;
+}
+.content > .container > .row >div >form>div  input{
+    border: 2px solid red;
+    background-color: #3c3c3c;
+}
+.content > .container > .row >div >form>div  textarea{
+    border: 2px solid red;
+    background-color: #3c3c3c;
+}
+.content > .container > .row >div >form>.row #submitcontact{
+    padding: 20px 0;
+    border: 2px solid green;
+    background-color: #0AAC8E;
+}

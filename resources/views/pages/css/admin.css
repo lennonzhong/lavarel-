@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+ol li, ul li{
+    list-style-type: none;
+}
+.top_box {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    background: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    color: #9d9d9d;
+}
+
+.top_box  .top_left {
+    float: left;
+}
+
+.top_box .top_left .logo {
+    float: left;
+    width: 190px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.top_box .top_left ul li {
+    float: left;
+}
+
+.top_box .top_left ul {
+    float: left;
+}
+
+.top_box .top_left ul li a.active {
+    color: #fff;
+    text-shadow: 1px 1px 1px #003;
+    background: #080808;
+}
+.top_box .top_left ul li a {
+    float: left;
+    padding: 0 25px;
+    color: #9d9d9d;
+    text-shadow: 1px 1px 1px #000;
+}
+.top_box a {
+    text-decoration: none;
+}
+
+.top_box .top_right {
+    float: right;
+}
+.top_box .top_right ul li {
+    float: left;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.menu_box {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 189px;
+    background: #f2f2f2;
+    border-right: 1px solid #ccc;
+    z-index: 10;
+}
+
+.menu_box ul {
+    font-size: 14px;
+}
+.menu_box ul li {
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+}
+.menu_box ul li h3 {
+    font-size: 14px;
+    padding: 0 16px 0 18px;
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    color: #333;
+    cursor: pointer;
+}
+
+.menu_box ul li h3 i{
+    position: relative;
+    top:2px;
+}
+
+.menu_box ul li ul.sub_menu {
+    border-top: 1px solid #e5e5e5;
+    background: #fff;
+    display: block;
+}
+
+.menu_box ul li ul.sub_menu li.on {
+    color: #1963aa;
+}
+.menu_box ul li ul.sub_menu li {
+    padding-left: 10px;
+}
+.menu_box ul li ul.sub_menu li.on a {
+    color: #1963aa;
+}
+
+
+
+
+
+.menu_box ul li ul.sub_menu li a {
+    padding: 0 16px 0 20px;
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    color: #333;
+    text-decoration: none;
+}
+.menu_box ul li ul.sub_menu li a i{
+    text-align: center;
+    position: relative;
+    top: 2px;
+}
+
+.main_box {
+    position: fixed;
+    left: 190px;
+    right: 0;
+    top: 50px;
+    bottom: 35px;
+}
